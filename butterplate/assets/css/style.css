@@ -1,0 +1,67 @@
+i{ vertical-align: middle !important; }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bold{
+  font-weight: bold !important;
+}
+.anim-delay{
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+.alert{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-warning{
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert-danger{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-success{
+  color: #3c763d;
+ background-color: #dff0d8;
+ border-color: #d6e9c6;
+}
+.wide{
+  min-width: 95%;
+}
+
+.sidebar{
+  position: fixed;
+  width: 400px;
+  top: 0;
+  bottom: 0;
+  resize: horizontal;
+  overflow: auto;
+}
+.right{
+  right: 0;
+}
+.main-content{
+  margin-left: 300px;
+}
+
+.full_width{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.light_grey{
+  background-color: #f5f5f5;
+}
